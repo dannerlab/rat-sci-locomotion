@@ -1,3 +1,19 @@
+# 
+# This file is part of https://github.com/dannerlab/rat-sci-locomotion.
+# Copyright (c) 2023 Simon M. Danner.
+# 
+# This program is free software: you can redistribute it and/or modify  
+# it under the terms of the GNU General Public License as published by  
+# the Free Software Foundation, version 3.
+#
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of 
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License 
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
 import pandas as pd
 import numpy as np
 
@@ -84,7 +100,7 @@ def calc_phase_df(df):
     df_out=pd.concat([df_out,dsup],axis=1)                                                                                                    
     return df_out
 
-df_raw = pd.read_hdf("./df_raw.h5",key='df_raw')
+df_raw = pd.read_hdf("./data/df_raw.h5",key='df_raw')
 df_raw['midstance']=(df_raw.onset+df_raw.offset)*0.5
 df_phases = pd.DataFrame({})
 for id in pd.unique(df_raw.ID):
@@ -147,4 +163,4 @@ df_phases['speed'] = df_phases.stride_len/df_phases.phase_dur
 df_phases.loc[(df_phases.frequency<2.0)|(df_phases.frequency>10.0),['frequency']]=np.nan
 df_phases.loc[(df_phases.speed<10.0)|(df_phases.speed>280.0),['speed']]=np.nan
 
-df_phases.to_hdf("./df_phases.h5",key='df_phases',format='t')
+df_phases.to_hdf("./data/df_phases.h5",key='df_phases',format='t')
