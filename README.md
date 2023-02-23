@@ -23,7 +23,7 @@ Run in [Analysis.ipynb][colab-link] in Google Colab
 
 `classify_gaits.py`: Calculates gait classifiction based on phase differences and duty factors
 
-`Analysis.ipynb`: Notebook containing all data analysis. Creates plots and calculates statistics included in the paper. Can be run on Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][colab-link] or binder [![Binder](https://mybinder.org/badge_logo.svg)][binder-link]
+`Analysis.ipynb`: Notebook containing all data analysis. Creates plots and calculates statistics included in the paper. Can be run on [Colab][colab-link]  or [binder][binder-link].
 
 
 ## Licenses
