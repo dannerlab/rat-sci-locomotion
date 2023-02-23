@@ -9,6 +9,23 @@ Run in [Analysis.ipynb][colab-link] in Google Colab
 [colab-link]: https://colab.research.google.com/github/dannerlab/rat-sci-locomotion/blob/master/Analysis.ipynb
 [binder-link]: https://mybinder.org/v2/gh/dannerlab/rat-sci-locomotion/HEAD?labpath=Analysis.ipynb
 
+## Files
+
+`data/*/*.xlsx`: Raw footprint data
+
+`data/df_raw.h5`: Raw data as table with meta data
+
+`data/df_phases.h5`: Table of processed data, includes phase differences and other locomotion parameters as well as gait classifcation
+
+`read_data.py`: Reads raw data files and creates `data/df_raw.h5`
+
+`calc_phases.py`: Reads `data/df_raw.h5` and calculates phase differences etc. and creates `data/df_phases.h5`
+
+`classify_gaits.py`: Calculates gait classifiction based on phase differences and duty factors
+
+`Analysis.ipynb`: Notebook containing all data analysis. Creates plots and calculates statistics included in the paper. Can be run on Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][colab-link] or binder [![Binder](https://mybinder.org/badge_logo.svg)][binder-link]
+
+
 ## Licenses
 Data licensed under Creative Commons Attribution-ShareAlike 4.0 International License [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
