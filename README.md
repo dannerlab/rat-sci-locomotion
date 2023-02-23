@@ -1,13 +1,13 @@
 # rat-sci-locomotion
 Data and analysis of results presented in Danner SM, Shepard CT, Hainline C, Shevtosva NA, Rybak IA, Magnuson DSK. Spinal control of locomotion before and after spinal cord injury. 
 
-Run in [analysis.ipynb][binder-link] in binder [![Binder](https://mybinder.org/badge_logo.svg)][binder-link]
+Run in [Analysis.ipynb][binder-link] in binder [![Binder](https://mybinder.org/badge_logo.svg)][binder-link]
 
-Run in [analysis.ipynb][colab-link] in Google Colab
+Run in [Analysis.ipynb][colab-link] in Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][colab-link]
 
-[colab-link]: https://colab.research.google.com/github/dannerlab/rat-sci-locomotion/blob/master/analysis.ipynb
-[binder-link]: https://mybinder.org/v2/gh/dannerlab/rat-sci-locomotion/HEAD?labpath=analysis.ipynb
+[colab-link]: https://colab.research.google.com/github/dannerlab/rat-sci-locomotion/blob/master/Analysis.ipynb
+[binder-link]: https://mybinder.org/v2/gh/dannerlab/rat-sci-locomotion/HEAD?labpath=Analysis.ipynb
 
 ## Licenses
 Data licensed under Creative Commons Attribution-ShareAlike 4.0 International License [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
