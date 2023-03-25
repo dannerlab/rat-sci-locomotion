@@ -1,5 +1,6 @@
 # rat-sci-locomotion
-Data and analysis of results presented in Danner SM, Shepard CT, Hainline C, Shevtosva NA, Rybak IA, Magnuson DSK. Spinal control of locomotion before and after spinal cord injury. 
+Data and analysis of results presented in:
+Danner SM, Shepard CT, Hainline C, Shevtosva NA, Rybak IA, Magnuson DSK. Spinal control of locomotion before and after spinal cord injury. bioRxiv 2023.03.22.533794; doi: [10.1101/2023.03.22.533794][https://doi.org/10.1101/2023.03.22.533794]
 
 Run in [Analysis.ipynb][binder-link] in binder [![Binder](https://mybinder.org/badge_logo.svg)][binder-link]
 
